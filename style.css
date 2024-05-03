@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Lilita+One);
+
+
+html {background: #ddd;}
+
+p {
+    color: #eee;
+    display: block;
+    text-align: center;
+    width: 550px;
+    margin: 80px 100px;
+    letter-spacing: 5px;
+    font: bold 60pt 'Lilita One';
+    text-shadow:
+        1px 1px 0 #aaa,
+        2px 2px 0 #bbb,
+        3px 3px 0 #bbb,
+        4px 4px 0 #bbb,
+        4px 4px 15px #888,
+        4px 4px 5px #444;
+    -moz-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(-5deg, -5deg);
+    -webkit-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(-5deg, -5deg);
+    -o-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(-5deg, -5deg);
+    -ms-transform: scale(1) rotate(0deg) translate(0px, 0px) skew(-5deg, -5deg);
+    transform: scale(1) rotate(0deg) translate(0px, 0px) skew(-5deg, -5deg);
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;}
+
+p:hover {
+    margin: 70px 110px 80px 90px;
+    text-shadow:
+        1px 1px 0 #aaa,
+        2px 2px 0 #bbb,
+        3px 3px 0 #bbb,
+        4px 4px 0 #bbb,
+        13px 13px 35px #888,
+        13px 13px 20px #444;}
